@@ -1,0 +1,92 @@
+{
+    "BevID":"CM",
+    "BevName":"Caramel Machiatto",
+    "isCore":"True",
+    "Iced":"False",
+    "Type":"Espresso",
+    "Ingredients": {
+        "Syrups": {
+            "Vanilla":3
+        },
+        "Milk":"2%",
+        "Espresso":"Signature",
+        "Toppings": {
+            "CaramelSauce":"Normal",
+            "Foam":"Normal"
+        }
+    },
+    "Recipe": {
+        "1":"Steam Milk",
+        "2":"Add syrups to cup",
+        "3":"Pour Steamed milk with foam",
+        "4":"Layer Espresso on top of milk",
+        "5":"Top with caramel sauce in crosshatch pattern"
+    }
+}
+
+
+{
+    "BevID":"M",
+    "BevName":"Cafe Mocha",
+    "isCore":"True",
+    "Iced":"False",
+    "Type":"Espresso",
+    "Ingredients": {
+        "Syrups": {
+            "Mocha":4
+        },
+        "Milk":"2%",
+        "Espresso":"Signature",
+        "Toppings": {
+            "WhippedCream":"Normal"
+        }
+    },
+    "Recipe": {
+        "1":"Steam Milk",
+        "2":"Add syrups to cup",
+        "3":"Add Espresso to cup, mixing with syrups",
+        "3":"Pour Steamed milk",
+        "5":"Top with Whipped Cream"
+    }
+}
+
+{
+    "BevID":"L",
+    "BevName":"Cafe Latte",
+    "isCore":"True",
+    "Iced":"False",
+    "Type":"Espresso",
+    "Ingredients": {
+        "Syrups": {
+        },
+        "Milk":"2%",
+        "Espresso":"Signature",
+        "Toppings": {
+        }
+    },
+    "Recipe": {
+        "1":"Steam Milk",
+        "2":"Add syrups to cup",
+        "3":"Add Espresso to cup,",
+        "4":"Pour Steamed milk",
+    }
+}
+
+{
+    "BevID":"GTL",
+    "BevName":"Green Tea Latte",
+    "isCore":"True",
+    "Iced":"False",
+    "Type":"Tea",
+    "Ingredients": {
+        "Matcha":3,
+        "Milk":"2%",
+        "Toppings": {
+        }
+    },
+    "Recipe": {
+        "1":"Add Matcha to milk",
+        "2":"Steam milk with matcha",
+        "3":"Pour milk with matcha into cup"
+    }
+}
